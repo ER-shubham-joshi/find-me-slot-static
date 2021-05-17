@@ -1,0 +1,35 @@
+.Login {
+  margin: auto;
+  width: 25%;
+  min-width: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid #4a00e0;
+}
+
+.login-button {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  outline: none;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
